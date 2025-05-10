@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | Horse Creek AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --hc-dark: #11403A;
+      --hc-accent: #F47A20;
+    }
+  </style>
+</head>
+<body class="bg-white text-[--hc-dark] font-sans">
+  <header class="bg-[--hc-dark] text-white flex items-center justify-between p-4 fixed top-0 w-full z-50 shadow-md">
+<a href="index.html" class="text-xl font-bold hover:underline">Horse Creek AI</a>
+  <button id="menu-toggle" class="md:hidden focus:outline-none">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+    </svg>
+  </button>
+  <nav class="hidden md:flex space-x-6">
+    <a href="booknow.html" class="hover:underline">Schedule a Free Consultation</a>
+    <a href="services.html" class="hover:underline">Services</a>
+    <a href="about.html" class="hover:underline">About</a>
+    <a href="#contact" class="hover:underline">Contact</a>
+    <a href="#blog" class="hover:underline">Blog</a>
+  </nav>
+</header>
+
+<div class="h-20 md:h-24"></div>
+
+<!-- Mobile Menu -->
+<nav id="mobile-menu" class="bg-[--hc-dark] text-white p-6 space-y-4 hidden md:hidden fixed top-20 w-full z-40">
+  <ul class="space-y-2">
+    <li><a href="booknow.html" class="block hover:underline">Schedule a Free Consultation</a></li>
+    <li><a href="services.html" class="block hover:underline">Services</a></li>
+    <li><a href="about.html" class="block hover:underline">About</a></li>
+    <li><a href="#contact" class="block hover:underline">Contact</a></li>
+    <li><a href="#blog" class="block hover:underline">Blog</a></li>
+  </ul>
+</nav>
+
+<script>
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Presentation & Workshop Formats</h2>
+      <ul class="list-disc list-inside space-y-3 text-left">
+        <li><strong>1-Hour Presentations:</strong> High-level overviews with key takeaways and examples. Ideal for lunch-and-learn events or guest speaker sessions.</li>
+        <li><strong>2-Hour Workshops:</strong> Combine lecture with live demos and interactive Q&A. Great for team development or faculty PD sessions.</li>
+        <li><strong>Half-Day Workshops:</strong> Deeper training with hands-on activities. Includes planning guides, resource packets, and follow-up support.</li>
+        <li><strong>Custom Presentations:</strong> We collaborate with your team to develop a talk or workshop tailored to your audience's goals and field.</li>
+      </ul>
+      <a href="booknow.html" class="inline-block bg-[--hc-accent] text-white px-6 py-3 rounded-lg font-semibold mt-6">Book a Free Consultation</a>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Available Workshop Topics</h2>
+      <ul class="list-disc list-inside space-y-2 text-left">
+        <li><strong>Using AI to Start Your Business</strong> – Tools for branding, planning, and research.</li>
+        <li><strong>Integrating AI into Your Business</strong> – Automate tasks and use data for smarter decisions.</li>
+        <li><strong>AI: Ethics and Combating Issues</strong> – Navigate bias, misinformation, and surveillance responsibly.</li>
+        <li><strong>Prompt Engineering 101</strong> – Get better results with smarter, structured inputs.</li>
+        <li><strong>AI for Marketing and Social Media</strong> – Build content, automate posts, and analyze trends.</li>
+        <li><strong>ChatGPT for Everyday Efficiency</strong> – Boost productivity in communication and planning.</li>
+        <li><strong>AI Tools for Educators</strong> – Design assignments, give feedback, and support learners.</li>
+        <li><strong>AI in Appalachia: Real Use Cases</strong> – Local examples from tourism to healthcare.</li>
+        <li><strong>Data Literacy and AI Basics for Teams</strong> – A no-jargon introduction for everyone.</li>
+        <li><strong>AI and Cybersecurity</strong> – Stay safe from phishing, scams, and evolving threats.</li>
+        <li><strong>Deepfakes, Scams, and Synthetic Media</strong> – Spot and stop AI-generated deception.</li>
+        <li><strong>And More:</strong> Customized topics tailored to your business or nonprofit.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4">AI Implementation Services</h2>
+      <p class="text-left mb-4">Beyond workshops, we also help organizations implement real AI tools. Whether you need a custom chatbot, data automation workflow, content generation system, or analytics dashboard—we can build it and support your team through adoption.</p>
+      <ul class="list-disc list-inside space-y-2 text-left mb-4">
+        <li>Custom Chatbots (FAQ, booking, customer support)</li>
+        <li>Automated Email & Social Media Scheduling</li>
+        <li>Survey and Form Data Aggregation</li>
+        <li>Content Writing & Design Tools for Teams</li>
+        <li>AI-Powered Internal Knowledge Bases</li>
+        <li>Text Summarization, Translation, or Text-to-Speech Systems</li>
+        <li>And More: Customized solutions tailored to your business or nonprofit</li>
+      </ul>
+      <a href="booknow.html" class="inline-block bg-[--hc-accent] text-white px-6 py-3 rounded-lg font-semibold">Book A Free Consultation</a>
+    </section>
+
+<div class="my-8"></div>
+
+
+    <section class="bg-gray-100 py-16 px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-2xl font-bold mb-4">Free Resource</h2>
+        <p class="text-lg mb-4">Download our free guide:</p>
+        <p class="text-xl font-semibold mb-2">"AI Starter Kit for Small Businesses"</p>
+        <p class="mb-6">Learn which tools you can implement today (even for free).</p>
+        <a href="#" class="bg-[--hc-accent] text-white py-3 px-6 rounded-lg font-semibold">Download PDF</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-[--hc-dark] text-white text-center py-10 px-6">
+    <div class="max-w-md mx-auto">
+      <img src="HorseCreekAILogo.png" alt="Horse Creek AI Logo" class="mx-auto h-24 w-auto mb-4">
+      <p class="text-[--hc-accent] font-semibold mb-4">Rooted in Appalachia. Powered by AI.</p>
+      <div class="flex justify-center space-x-6">
+        <a href="https://www.facebook.com/yourpage" target="_blank" aria-label="Facebook">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/facebook.svg" alt="Facebook" class="h-6 w-6" />
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" aria-label="Instagram">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/instagram.svg" alt="Instagram" class="h-6 w-6" />
+        </a>
+        <a href="https://www.linkedin.com/company/yourcompany" target="_blank" aria-label="LinkedIn">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" alt="LinkedIn" class="h-6 w-6" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
